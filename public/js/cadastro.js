@@ -3,8 +3,7 @@ $(document).ready(function(){
     $("#cep").mask("99.999-999", { reverse: true });
     $("#tel_resid").mask("99999-9999", { reverse: true });
     $("#tel_cel").mask("99999-9999", { reverse: true });
-    $("#cpf").mask("999.999.999-99", { reverse: true });
-    
+    $("#cpf").mask("999.999.999-99", { reverse: true });    
 
     $("#cep").change(function () {        
         if ($(this).val().length == 10) {

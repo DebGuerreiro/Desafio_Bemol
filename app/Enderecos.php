@@ -8,6 +8,8 @@ class Enderecos extends Model
 {
     protected $table = "enderecos";
 
+    protected $primaryKey = 'id';
+
     public $timestamps = false;
 
     protected $fillable = [

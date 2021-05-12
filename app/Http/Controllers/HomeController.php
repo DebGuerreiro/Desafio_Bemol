@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Contatos;
+use App\Enderecos;
+use App\User;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -23,6 +27,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $id_user = Auth::user()->id;
+
+        $user = User::find($id_user);
+        $contact = Contatos::where('id_user',$id_user)->get();
+        $address = Enderecos::where('id_user',$id_user)->get();
+
+        //dd($contact,$address);
+
+        return view('home', compact('user','contact','address'));
     }
 }

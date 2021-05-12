@@ -8,6 +8,8 @@ class Contatos extends Model
 {
     protected $table = "contatos";
 
+    protected $primaryKey = 'id';
+
     public $timestamps = false;
 
     protected $fillable = [
