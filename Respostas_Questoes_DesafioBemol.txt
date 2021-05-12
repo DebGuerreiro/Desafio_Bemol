@@ -1,0 +1,21 @@
+## Desafio Bemol - Software Engineer ##
+
+## Débora de Paula Guerreiro ##
+
+## Questões ##
+
+1. A solução deve ser disponibilizada em Cloud ou On-premise?
+R: Em termos de escalabilidade considero mais adequada a disponibilização em Cloud para esta aplicação.
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa solução, responda qual ferramenta acredita ser apropriada para o controle de tarefas da equipe, a ferramenta é ágil?
+R: Ferramentas ágeis que já utulizei como o Trello ou Basecamp são muito boas para gerenciemnto de times de projeto.
+
+3. Você se sente capaz de liderar esta equipe? Por quê?
+R: Não, gostaria de obter mais experiência e conhecimento em programação web e banco de dados para ser capaz de liderar uma equipe tendo mais domínio sobre os aspectos arquiteturais de uma aplicação.
+
+4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria?
+R: Se for relacionado ao processo seletivo, seria legal os requisitos do projeto serem um pouco mais específicos. Se for relacionado à aplicação seria legal pensar na integração com mais APIs.
+
+5. Acha válido esse desafio para o processo que está participando?
+R: Sim! Muito válido :) o próprio desafio é fonte de aprendizado. 
+
