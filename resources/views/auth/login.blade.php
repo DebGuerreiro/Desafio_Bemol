@@ -41,7 +41,12 @@
                   <img class="mb-4" src="{{asset('bml01.png')}}" style="width:300px">
                   <br>
                   <br>
-                  <h1 class="h3 mb-3 font-weight-normal">Entre na conta</h1>
+                  <h1 class="h3 mb-3 font-weight-normal">Entrar</h1>
+                  @if(session('status'))
+                      <div class="alert alert-info">
+                          {{ session('status') }}
+                      </div>
+                  @endif
                   <label for="inputEmail" class="sr-only">E-maik</label>
                   {{-- <input type="email" id="inputEmail" class="form-control form-control-lg" placeholder="E-mail" required autofocus> --}}
                   <input id="email" type="email" class="form-control @error('email') is-invalid @enderror form-control-lg" placeholder="E-mail" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
