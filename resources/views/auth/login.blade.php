@@ -63,7 +63,9 @@
                     @enderror
                     
                   <br>
-                  <a href="#">Não tem conta? Cadastre-se</a>
+
+                    <a href="{{url('/cadastro')}}">Não tem conta? Cadastre-se</a>
+
                   <br>
                   <br>
                   <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>

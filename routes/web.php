@@ -18,3 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/cadastro', 'ContaController@cadastrar')->name('cadastro');
+Route::post('/cadastro', 'ContaController@salvarCadastro');
