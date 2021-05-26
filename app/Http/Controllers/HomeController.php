@@ -27,9 +27,13 @@ class HomeController extends Controller
      */
     public function index()
     {
+        //recupero o id do usuario logado
         $id_user = Auth::user()->id;
 
+        //select * from users where id= id_passado
         $user = User::find($id_user);
+
+        //busco os dados pela chave estrangeira
         $contact = Contatos::where('id_user',$id_user)->get();
         $address = Enderecos::where('id_user',$id_user)->get();
 
